@@ -1,10 +1,11 @@
-﻿namespace Dictionaries_Brown_Jaylen
+﻿using System.Collections.Generic;
+namespace Dictionaries_Brown_Jaylen
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Dictionary<int, string> topGames = new Dictionary<int, string>();
         }
     }
 }
